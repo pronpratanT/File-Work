@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+
+h1{
+    font-weight: bold;
+    margin: 15px 0;
+    font-size: 2.5em;
+}
+
+a{
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+.regis{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 10px;
+}
+
+input[type=submit],input[type=reset]{
+    border-radius: 20px;
+    border: 1px solid #FF4b2b;
+    background-color: #FF4b2b;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type=file]{
+    width: 100%;
+}
+
+input{
+    font-family: Montserrat;
+}
+
+.reg{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.log{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+input[type=text],input[type=password]{
+    background-color: #eee;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+}
+
+label{
+   margin: 8px 0;
+    border: 2px dashed #333;
+    border-radius: 20px;
+    width: 100%;
+    padding: 12px 15px;
+    cursor: pointer;
+}
+
+input[type=file]{
+    visibility: hidden;
+}
+
+.layout{
+    display: flex;
+}
+
+.pic{
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #FF416C;
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pic img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 50px 0 20px 0;
+    border: 5px solid #333;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.show{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.show img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 25px 0;
+    border: 5px solid #333;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+}
+
+.show h1{
+    margin: 0;
+}
+
+.show a{
+    border-radius: 20px;
+    border: 1px solid #FF4b2b;
+    background-color: #FF4b2b;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
+    width: 80%;
+    cursor: pointer;
+}
+
+.room{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px auto;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    font-family: 'Prompt', sans-serif;
+}
+
+.room h1{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.exportroom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #FFFFFF;
+
+}   
+
+.rent{
+    display: flex;
+    justify-content: center;
+}
+
+.btnrent{
+    border-radius: 20px;
+    border: 1px solid #FF4b2b;
+    background-color: #FF4b2b;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    width: 70%;
+    cursor: pointer;
+    height: 60px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.fontthai{
+    font-family: 'Prompt', sans-serif;
+}
+
+.rent form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btsubmit{
+    border-radius: 20px;
+    border: 1px solid #FF4b2b;
+    background-color: #FF4b2b;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    width: 40%;
+    cursor: pointer;
+    height: 50px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.show h1{
+    width: 100%;
+    text-align: left;
+}
+
+.exportprice{
+    margin: 0;
+    color: #eee;
+}
+
+.head{
+    margin: 49px 0 0 0;
+    color: #eee;
+}
+
+.fontthsize{
+    font-size: 2.2em;
+}
+
+.adminroom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-items: center;
+}
+
+.btnadmin{
+    border-radius: 20px;
+    border: 1px solid #FF4b2b;
+    background-color: #FF4b2b;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 5px 0;
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+    font-family: 'Prompt', sans-serif;
+    margin: 0;
+}
+
+.exportadmin{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-items: center;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
